@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.zr8636gk.tegucigalpa.MainActivity">
+
+    <ImageView
+        android:visibility="invisible"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/mich"
+        android:id="@+id/imageView"
+        android:scaleType="fitEnd"
+        android:adjustViewBounds="true"
+        android:cropToPadding="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:visibility="invisible"
+
+
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:visibility="invisible"
+        android:layout_height="500dp"
+        app:srcCompat="@mipmap/lines"
+        android:id="@+id/imageView5"
+        android:scaleType="fitXY"
+        android:layout_width="100dp"
+        android:layout_alignParentTop="true"
+       />
+
+    <ImageView
+        android:visibility="invisible"
+        android:layout_width="100dp"
+        android:layout_height="500dp"
+        app:srcCompat="@mipmap/lines"
+        android:id="@+id/imageView4"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="false"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/Button2"
+        android:layout_alignEnd="@+id/Button2" />
+
+    <ImageButton
+        android:layout_width="150dp"
+        app:srcCompat="@mipmap/plz"
+        android:id="@+id/Button2"
+        android:cropToPadding="false"
+        android:scaleType="fitXY"
+        android:elevation="0dp"
+        android:background="@android:drawable/menuitem_background"
+        android:layout_height="150dp"
+        android:layout_below="@+id/progressBar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@mipmap/cant"
+        android:id="@+id/Button"
+        android:background="@android:drawable/menuitem_background"
+        android:scaleType="fitXY"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/imageView5"
+        android:layout_toEndOf="@+id/imageView5" />
+
+    <TextView
+        android:text="Tegucigalpa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:textSize="24sp"
+        android:fontFamily="casual" />
+
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@mipmap/per"
+        android:id="@+id/Button3"
+        android:background="@android:drawable/menuitem_background"
+        android:scaleType="fitXY"
+        android:layout_below="@+id/progressBar"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:visibility="invisible"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@mipmap/icansmell"
+        android:id="@+id/imageView7"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/imageView5"
+        android:layout_toEndOf="@+id/imageView5" />
+
+    <ImageView
+        android:visibility="invisible"
+        android:layout_width="100dp"
+        android:layout_height="500dp"
+        app:srcCompat="@mipmap/lines"
+        android:id="@+id/imageView3"
+        android:scaleType="fitXY"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:visibility="invisible"
+        app:srcCompat="@mipmap/lines"
+        android:id="@+id/imageView6"
+        android:scaleType="fitXY"
+        android:layout_width="100dp"
+        android:layout_height="5000dp"
+        android:layout_alignParentBottom="true"
+       />
+
+    <ImageView
+        android:visibility="invisible"
+        android:layout_height="500dp"
+        app:srcCompat="@mipmap/lines"
+        android:id="@+id/imageView2"
+        android:scaleType="fitXY"
+        android:cropToPadding="true"
+        android:adjustViewBounds="true"
+        android:layout_width="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/imageView3"
+        android:layout_toStartOf="@+id/imageView3" />
+
+</RelativeLayout>
